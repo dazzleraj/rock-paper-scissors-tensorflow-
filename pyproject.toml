@@ -1,0 +1,22 @@
+[project]
+name = "rps-web-cnn"
+version = "0.1.0"
+description = "Rock-Paper-Scissors Classifier with CNN, OpenCV Webcam, and Streamlit"
+readme = "README.md"
+authors = [
+    { name = "Dazzle Raj", email = "dazzleraj@samcorporate.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "tensorflow>=2.16.0",
+    "opencv-python>=4.9.0",
+    "numpy>=1.26.0",
+    "matplotlib>=3.8.0",
+    "scikit-learn>=1.4.0",
+    "streamlit>=1.35.0",
+    "requests>=2.31.0",
+    "pillow>=10.2.0"
+]
+
+[tool.uv]
+package = false

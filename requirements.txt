@@ -1,0 +1,8 @@
+tensorflow>=2.16.0
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+streamlit>=1.35.0
+requests>=2.31.0
+pillow>=10.2.0
